@@ -25,7 +25,7 @@ function Event() {
       }, []);     
    
   return (
-    <>
+    <div className="container">
       <div className="w-screen">
         <Header />
       </div>
@@ -45,7 +45,7 @@ function Event() {
           ))}
           </div>            
       </div>
-    </>
+    </div>
   );
 };
 

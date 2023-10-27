@@ -40,7 +40,7 @@ function Daftar() {
   };
 
   return (
-    <>
+    <div className="container">
       <Header />
       <div className="flex justify-center items-center h-screen ">
         <div className="w-max rounded-md shadow-md p-5">
@@ -98,8 +98,7 @@ function Daftar() {
           </form>
         </div>
       </div>    
-      
-    </>
+    </div>
   );
 }
 
